@@ -1,0 +1,52 @@
+body {
+  background-image: url("https://osidigital.com/wp-content/uploads/2018/09/shutterstock_588308285-1-copy.jpeg");
+  background-color: #cccccc;
+  height: 600;
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+  background-position: center;
+  background-attachment: fixed;
+}
+form {
+  display: block;
+  position: relative;
+}
+table,th,td {
+  column-width: 100px;
+}
+form .form__button {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  background: var(--color-primary);
+}
+form .form-inner {
+  position: relative;
+  display:block;
+  padding:30px;
+  z-index: 2;
+}
+form .form-inner h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+form .form-inner .form-group {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+form .form-inner .form-group input {
+  display: block;
+  width: 200%;
+  padding: 10px 15px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  transition: 0.4s;
+}
